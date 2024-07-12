@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|c:\\users\\os\\desktop\\gereksiizler\\gereksiizler\\aestok\\aestok\\aestok\\aestok\\admin\\urunekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\urunekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\sosyalayar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\sosyalayar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\musteriupdate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\musteriupdate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\musteri.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\musteri.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\musteriekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\musteriekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\musteri.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\musteri.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\musteri.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\musteri.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\aestok\\aestok\\admin\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF92C20A-74CE-41A9-ADD6-46BF73126A98}|AESTOK\\AESTOK.csproj|solutionrelative:aestok\\aestok\\admin\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\Web.config",
+              "RelativeDocumentMoniker": "AESTOK\\Web.config",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\Web.config",
+              "RelativeToolTip": "AESTOK\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-12T11:16:35.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sosyalayar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\sosyalayar.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\sosyalayar.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\sosyalayar.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\sosyalayar.aspx.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAD4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:35.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\login.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\login.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\login.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\login.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:35.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "urunekle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\urunekle.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\urunekle.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\urunekle.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\urunekle.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T11:16:36.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "musteriupdate.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteriupdate.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\musteriupdate.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteriupdate.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\musteriupdate.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:36.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "musteriekle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteriekle.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\musteriekle.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteriekle.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\musteriekle.aspx.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAGwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:36.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "musteri.aspx",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteri.aspx",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\musteri.aspx",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteri.aspx",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\musteri.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-07-12T11:16:36.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\register.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\register.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\register.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\register.aspx.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAAIoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:36.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "musteri.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteri.aspx.designer.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\musteri.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteri.aspx.designer.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\musteri.aspx.designer.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwDsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:36.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "musteri.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteri.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\musteri.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\musteri.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\musteri.aspx.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAwwKYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:36.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\index.aspx",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\index.aspx",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\index.aspx",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-12T11:16:36.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\index.aspx.cs",
+              "RelativeDocumentMoniker": "AESTOK\\AESTOK\\admin\\index.aspx.cs",
+              "ToolTip": "C:\\Users\\OS\\Desktop\\gereksiizler\\gereksiizler\\AESTOK\\AESTOK\\AESTOK\\AESTOK\\admin\\index.aspx.cs",
+              "RelativeToolTip": "AESTOK\\AESTOK\\admin\\index.aspx.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAswKUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-12T11:16:36.144Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF92C20A-74CE-41A9-ADD6-46BF73126A98}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AESTOK</RootNamespace>
+    <AssemblyName>AESTOK</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44392</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AESTOK\admin\css\custom.css" />
+    <Content Include="AESTOK\admin\css\font.css" />
+    <Content Include="AESTOK\admin\css\style.blue.css" />
+    <Content Include="AESTOK\admin\css\style.default.css" />
+    <Content Include="AESTOK\admin\css\style.green.css" />
+    <Content Include="AESTOK\admin\css\style.pink.css" />
+    <Content Include="AESTOK\admin\css\style.red.css" />
+    <Content Include="AESTOK\admin\css\style.sea.css" />
+    <Content Include="AESTOK\admin\css\style.violet.css" />
+    <Content Include="AESTOK\admin\fonts\dark-dashboard.svg" />
+    <Content Include="AESTOK\admin\genelayar.aspx" />
+    <Content Include="AESTOK\admin\icons-reference\fonts\dark-dashboard.svg" />
+    <Content Include="AESTOK\admin\icons-reference\icons-reference.html" />
+    <Content Include="AESTOK\admin\icons-reference\styles.css" />
+    <Content Include="AESTOK\admin\iletisimayar.aspx" />
+    <Content Include="AESTOK\admin\img\avatar-0.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-1.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-10.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-11.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-2.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-3.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-4.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-5.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-6.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-7.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-8.jpg" />
+    <Content Include="AESTOK\admin\img\avatar-9.jpg" />
+    <Content Include="AESTOK\admin\img\bg.jpeg" />
+    <Content Include="AESTOK\admin\img\favicon.ico" />
+    <Content Include="AESTOK\admin\img\flags\16\AD.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AQ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AX.png" />
+    <Content Include="AESTOK\admin\img\flags\16\AZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BB.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BD.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BJ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\BZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CD.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CV.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CX.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\CZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\DE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\DJ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\DK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\DM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\DO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\DZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\EC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\EE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\EG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\EH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ER.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ES.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ET.png" />
+    <Content Include="AESTOK\admin\img\flags\16\EU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\FI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\FJ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\FK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\FM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\FO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\FR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GB.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GD.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GQ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\GY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\HK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\HN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\HR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\HT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\HU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ID.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IQ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\IT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\JE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\JM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\JO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\JP.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KP.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\KZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LB.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LV.png" />
+    <Content Include="AESTOK\admin\img\flags\16\LY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MD.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ME.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ML.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MP.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MQ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MV.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MX.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\MZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NP.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\NZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\OM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\PY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\QA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\RE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\RO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\RS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\RU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\RW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SB.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SD.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ST.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SV.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SX.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\SZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TD.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TH.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TJ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TK.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TL.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TO.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TR.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TV.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\TZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\UA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\UG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\US.png" />
+    <Content Include="AESTOK\admin\img\flags\16\UY.png" />
+    <Content Include="AESTOK\admin\img\flags\16\UZ.png" />
+    <Content Include="AESTOK\admin\img\flags\16\VA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\VC.png" />
+    <Content Include="AESTOK\admin\img\flags\16\VE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\VG.png" />
+    <Content Include="AESTOK\admin\img\flags\16\VI.png" />
+    <Content Include="AESTOK\admin\img\flags\16\VN.png" />
+    <Content Include="AESTOK\admin\img\flags\16\VU.png" />
+    <Content Include="AESTOK\admin\img\flags\16\WF.png" />
+    <Content Include="AESTOK\admin\img\flags\16\WS.png" />
+    <Content Include="AESTOK\admin\img\flags\16\YE.png" />
+    <Content Include="AESTOK\admin\img\flags\16\YT.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ZA.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ZM.png" />
+    <Content Include="AESTOK\admin\img\flags\16\ZW.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_abkhazia.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_basque-country.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_british-antarctic-territory.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_commonwealth.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_england.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_gosquared.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_kosovo.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_mars.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_nagorno-karabakh.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_nato.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_northern-cyprus.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_olympics.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_red-cross.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_scotland.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_somaliland.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_south-ossetia.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_united-nations.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_unknown.png" />
+    <Content Include="AESTOK\admin\img\flags\16\_wales.png" />
+    <Content Include="AESTOK\admin\img\map-close.png" />
+    <Content Include="AESTOK\admin\img\map-marker-blue.png" />
+    <Content Include="AESTOK\admin\img\map-marker-default.png" />
+    <Content Include="AESTOK\admin\img\map-marker-green.png" />
+    <Content Include="AESTOK\admin\img\map-marker-pink.png" />
+    <Content Include="AESTOK\admin\img\map-marker-red.png" />
+    <Content Include="AESTOK\admin\img\map-marker-sea.png" />
+    <Content Include="AESTOK\admin\img\map-marker-violet.png" />
+    <Content Include="AESTOK\admin\img\map-marker.png" />
+    <Content Include="AESTOK\admin\img\mockup1.jpg" />
+    <Content Include="AESTOK\admin\img\mockup2.jpg" />
+    <Content Include="AESTOK\admin\img\mockup3.jpg" />
+    <Content Include="AESTOK\admin\img\mockup4.jpg" />
+    <Content Include="AESTOK\admin\img\mockup5.jpg" />
+    <Content Include="AESTOK\admin\img\mockup6.jpg" />
+    <Content Include="AESTOK\admin\img\mockup7.jpg" />
+    <Content Include="AESTOK\admin\img\multiselect-switch.png" />
+    <Content Include="AESTOK\admin\img\photos\paul-morris-116514-unsplash.jpg" />
+    <Content Include="AESTOK\admin\img\template-mac.png" />
+    <Content Include="AESTOK\admin\index.aspx" />
+    <Content Include="AESTOK\admin\js\charts-custom.js" />
+    <Content Include="AESTOK\admin\js\charts-home.js" />
+    <Content Include="AESTOK\admin\js\front.js" />
+    <Content Include="AESTOK\admin\mdlt.aspx" />
+    <Content Include="AESTOK\admin\musteri.aspx" />
+    <Content Include="AESTOK\admin\musteriekle.aspx" />
+    <Content Include="AESTOK\admin\musteriupdate.aspx" />
+    <Content Include="AESTOK\admin\sosyalayar.aspx" />
+    <Content Include="AESTOK\admin\urun.aspx" />
+    <Content Include="AESTOK\admin\urunekle.aspx" />
+    <Content Include="AESTOK\admin\urunguncelle.aspx" />
+    <Content Include="AESTOK\admin\usil.aspx" />
+    <Content Include="AESTOK\admin\uye.aspx" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="AESTOK\admin\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="AESTOK\admin\vendor\chart.js\Chart.bundle.js" />
+    <Content Include="AESTOK\admin\vendor\chart.js\Chart.bundle.min.js" />
+    <Content Include="AESTOK\admin\vendor\chart.js\Chart.js" />
+    <Content Include="AESTOK\admin\vendor\chart.js\Chart.min.js" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\additional-methods.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\jquery.validate.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\jquery.validate.min.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ar.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_az.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_bg.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_bn_BD.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ca.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_cs.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_da.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_de.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_el.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_es.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_es_AR.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_es_PE.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_et.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_eu.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_fa.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_fi.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_fr.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ge.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_gl.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_he.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_hr.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_hu.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_hy_AM.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_id.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_is.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_it.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ja.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ka.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_kk.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ko.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_lt.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_lv.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_mk.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_my.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_nl.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_no.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_pl.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_pt_BR.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_pt_PT.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ro.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ru.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_sd.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_si.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_sk.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_sl.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_sr.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_sr_lat.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_sv.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_th.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_tj.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_tr.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_uk.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_ur.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_vi.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_zh.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\messages_zh_TW.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\methods_de.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\methods_es_CL.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\methods_fi.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\methods_nl.js" />
+    <Content Include="AESTOK\admin\vendor\jquery-validation\localization\methods_pt.js" />
+    <Content Include="AESTOK\admin\vendor\jquery.cookie\jquery.cookie.js" />
+    <Content Include="AESTOK\admin\vendor\jquery.cookie\MIT-LICENSE.txt" />
+    <Content Include="AESTOK\admin\vendor\jquery\core.js" />
+    <Content Include="AESTOK\admin\vendor\jquery\jquery.js" />
+    <Content Include="AESTOK\admin\vendor\jquery\jquery.min.js" />
+    <Content Include="AESTOK\admin\vendor\jquery\jquery.slim.js" />
+    <Content Include="AESTOK\admin\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\esm\popper-utils.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\esm\popper-utils.min.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\esm\popper.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\esm\popper.min.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\popper-utils.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\popper-utils.min.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\popper.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\popper.min.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\umd\popper-utils.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\umd\popper-utils.min.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\umd\popper.js" />
+    <Content Include="AESTOK\admin\vendor\popper.js\umd\popper.min.js" />
+    <Content Include="AESTOK\css\animate.css" />
+    <Content Include="AESTOK\css\bootstrap.min.css" />
+    <Content Include="AESTOK\css\flaticon.css" />
+    <Content Include="AESTOK\css\font-awesome.min.css" />
+    <Content Include="AESTOK\css\magnific.min.css" />
+    <Content Include="AESTOK\css\meanmenu.min.css" />
+    <Content Include="AESTOK\css\owl.carousel.css" />
+    <Content Include="AESTOK\css\owl.transitions.css" />
+    <Content Include="AESTOK\css\owl.video.play.html" />
+    <Content Include="AESTOK\css\responsive.css" />
+    <Content Include="AESTOK\css\themify-icons.css" />
+    <Content Include="AESTOK\fonts\Flaticon.svg" />
+    <Content Include="AESTOK\fonts\fontawesome-webfont3295.svg" />
+    <Content Include="AESTOK\fonts\themify.svg" />
+    <Content Include="AESTOK\iletisim.aspx" />
+    <Content Include="AESTOK\img\about\ab.jpg" />
+    <Content Include="AESTOK\img\background\ag1.jpg" />
+    <Content Include="AESTOK\img\background\b.jpg" />
+    <Content Include="AESTOK\img\background\bg3.jpg" />
+    <Content Include="AESTOK\img\background\fg.jpg" />
+    <Content Include="AESTOK\img\blog\avater1.png" />
+    <Content Include="AESTOK\img\blog\avater2.png" />
+    <Content Include="AESTOK\img\blog\b1.jpg" />
+    <Content Include="AESTOK\img\blog\b2.jpg" />
+    <Content Include="AESTOK\img\blog\b3.jpg" />
+    <Content Include="AESTOK\img\blog\b4.jpg" />
+    <Content Include="AESTOK\img\blog\b5.jpg" />
+    <Content Include="AESTOK\img\blog\b6.jpg" />
+    <Content Include="AESTOK\img\feature\f1.jpg" />
+    <Content Include="AESTOK\img\logo\favicon.ico" />
+    <Content Include="AESTOK\img\logo\logo.png" />
+    <Content Include="AESTOK\img\logo\logo3.png" />
+    <Content Include="AESTOK\img\logo\preloader.gif" />
+    <Content Include="AESTOK\img\review\1.jpg" />
+    <Content Include="AESTOK\img\review\2.jpg" />
+    <Content Include="AESTOK\img\review\3.jpg" />
+    <Content Include="AESTOK\img\review\4.jpg" />
+    <Content Include="AESTOK\img\review\5.jpg" />
+    <Content Include="AESTOK\img\review\6.jpg" />
+    <Content Include="AESTOK\img\slider\h1.jpg" />
+    <Content Include="AESTOK\img\slider\h2.jpg" />
+    <Content Include="AESTOK\img\team\t1.jpg" />
+    <Content Include="AESTOK\img\team\t2.jpg" />
+    <Content Include="AESTOK\img\team\t3.jpg" />
+    <Content Include="AESTOK\img\team\t4.jpg" />
+    <Content Include="AESTOK\img\team\t5.jpg" />
+    <Content Include="AESTOK\img\team\t6.jpg" />
+    <Content Include="AESTOK\img\team\t7.jpg" />
+    <Content Include="AESTOK\img\team\t8.jpg" />
+    <Content Include="AESTOK\index.aspx" />
+    <Content Include="AESTOK\js\bootstrap.min.js" />
+    <Content Include="AESTOK\js\Chart.bundle.min.js" />
+    <Content Include="AESTOK\js\Chart.js" />
+    <Content Include="AESTOK\js\form-validator.min.js" />
+    <Content Include="AESTOK\js\jquery.meanmenu.js" />
+    <Content Include="AESTOK\js\jquery.stellar.min.js" />
+    <Content Include="AESTOK\js\magnific.min.js" />
+    <Content Include="AESTOK\js\main.js" />
+    <Content Include="AESTOK\js\mapcode.js" />
+    <Content Include="AESTOK\js\owl.carousel.min.js" />
+    <Content Include="AESTOK\js\plugins.js" />
+    <Content Include="AESTOK\js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="AESTOK\js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="AESTOK\js\wow.min.js" />
+    <Content Include="AESTOK\login.aspx" />
+    <Content Include="AESTOK\register.aspx" />
+    <Content Include="AESTOK\style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AESTOK\admin\genelayar.aspx.cs">
+      <DependentUpon>genelayar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\genelayar.aspx.designer.cs">
+      <DependentUpon>genelayar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\iletisimayar.aspx.cs">
+      <DependentUpon>iletisimayar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\iletisimayar.aspx.designer.cs">
+      <DependentUpon>iletisimayar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\mdlt.aspx.cs">
+      <DependentUpon>mdlt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\mdlt.aspx.designer.cs">
+      <DependentUpon>mdlt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\musteri.aspx.cs">
+      <DependentUpon>musteri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\musteri.aspx.designer.cs">
+      <DependentUpon>musteri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\musteriekle.aspx.cs">
+      <DependentUpon>musteriekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\musteriekle.aspx.designer.cs">
+      <DependentUpon>musteriekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\musteriupdate.aspx.cs">
+      <DependentUpon>musteriupdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\musteriupdate.aspx.designer.cs">
+      <DependentUpon>musteriupdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\sosyalayar.aspx.cs">
+      <DependentUpon>sosyalayar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\sosyalayar.aspx.designer.cs">
+      <DependentUpon>sosyalayar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\urun.aspx.cs">
+      <DependentUpon>urun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\urun.aspx.designer.cs">
+      <DependentUpon>urun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\urunekle.aspx.cs">
+      <DependentUpon>urunekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\urunekle.aspx.designer.cs">
+      <DependentUpon>urunekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\urunguncelle.aspx.cs">
+      <DependentUpon>urunguncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\urunguncelle.aspx.designer.cs">
+      <DependentUpon>urunguncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\usil.aspx.cs">
+      <DependentUpon>usil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\usil.aspx.designer.cs">
+      <DependentUpon>usil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\admin\uye.aspx.cs">
+      <DependentUpon>uye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\admin\uye.aspx.designer.cs">
+      <DependentUpon>uye.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESTOK\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AESTOK\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AESTOK\fonts\Flaticon.eot" />
+    <Content Include="AESTOK\fonts\Flaticon.ttf" />
+    <Content Include="AESTOK\fonts\Flaticon.woff" />
+    <Content Include="AESTOK\fonts\Flaticond41d.eot" />
+    <Content Include="AESTOK\fonts\fontawesome-webfont3295.eot" />
+    <Content Include="AESTOK\fonts\fontawesome-webfont3295.ttf" />
+    <Content Include="AESTOK\fonts\fontawesome-webfont3295.woff" />
+    <Content Include="AESTOK\fonts\fontawesome-webfont3295.woff2" />
+    <Content Include="AESTOK\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="AESTOK\fonts\themify.eot" />
+    <Content Include="AESTOK\fonts\themify.ttf" />
+    <Content Include="AESTOK\fonts\themify.woff" />
+    <Content Include="AESTOK\fonts\themifyd41d.eot" />
+    <Content Include="AESTOK\admin\data\addresses.json" />
+    <Content Include="AESTOK\admin\data\countries.json" />
+    <Content Include="AESTOK\admin\fonts\dark-dashboard.eot" />
+    <Content Include="AESTOK\admin\fonts\dark-dashboard.ttf" />
+    <Content Include="AESTOK\admin\fonts\dark-dashboard.woff" />
+    <Content Include="AESTOK\admin\icons-reference\fonts\dark-dashboard.eot" />
+    <Content Include="AESTOK\admin\icons-reference\fonts\dark-dashboard.ttf" />
+    <Content Include="AESTOK\admin\icons-reference\fonts\dark-dashboard.woff" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="AESTOK\admin\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="AESTOK\admin\vendor\jquery.cookie\component.json" />
+    <Content Include="AESTOK\admin\vendor\jquery.cookie\cookie.jquery.json" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AESTOK\admin\vendor\font-awesome\less\" />
+    <Folder Include="AESTOK\admin\vendor\font-awesome\scss\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62924</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44392/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
